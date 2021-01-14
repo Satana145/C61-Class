@@ -47,6 +47,7 @@ p{
     margin-top: 0px;
     z-index: 10;
     cursor: pointer;
+    margin-left:20px;
 }
 .links{
     font-size: 20px;
