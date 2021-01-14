@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+.profile{
+    height: 250;
+    border-radius: 75%;
+}
+#welcome{
+    background: linear-gradient(#03fccf 0%, #00ff9d 100%);
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    width: 100%;
+    right: 0%;
+    left:0%;
+    z-index: 9;
+}
+.text{
+    font-family: 'Redressed', cursive;
+    font-size: 50px;
+    color: royalblue;
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.3xpx;
+}
+.menu{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    font-size: 20px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    float: left;
+    color: white;
+    padding-left: 33px;
+    padding-right: 25px;
+    display: inline;
+}
+.links:hover{
+    background-color: white;
+    text-decoration: underline;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+        font-family: 'Big Shoulders Stencil Text', cursive;
+        text-shadow: 2px 2px gainsboro;
+}
+.art:hover{
+    background-color: whitesmoke;
+}
+html{
+    scroll-behavior: smooth;
+}
+#contacts{
+    background-color: darkred;
+}
+.contact1 a{
+    color:white;
+text-shadow:none;
+}
+.contact1 h3{
+    display: inline;
+}
+#map{
+    width: 100%;
+}
+
